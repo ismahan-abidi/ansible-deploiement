@@ -1,6 +1,6 @@
 ---
 - name: test connectivity
-  hosts: machine_dev
+  hosts: 172.31.54.166
   tasks:
   - name: test ping
     ping:
