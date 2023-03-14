@@ -3,4 +3,5 @@
   hosts: group_dev
   tasks:
   - name: test ping
-    ping:
+    debug:
+      message: "hello {{ nom }}"
