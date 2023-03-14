@@ -4,4 +4,4 @@
   tasks:
   - name: test ping
     debug:
-      message: "hello"
+      msg: "hello"
