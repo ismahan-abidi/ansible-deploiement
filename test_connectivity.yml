@@ -1,6 +1,6 @@
 ---
 - name: test connectivity
-  hosts: dev_group
+  hosts: group_dev
   tasks:
   - name: test ping
     ping:
