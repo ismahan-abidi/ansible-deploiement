@@ -1,6 +1,6 @@
 ---
 - name: test connectivity
-  hosts: machine_dev
+  hosts: group_prod
   tasks:
   - name: test ping
     ping:
