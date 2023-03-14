@@ -1,0 +1,6 @@
+---
+- name: test connectivity
+  hosts: machine_dev
+  tasks:
+  - name: test ping
+    ping:
