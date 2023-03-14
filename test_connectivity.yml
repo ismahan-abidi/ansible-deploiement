@@ -1,6 +1,6 @@
 ---
 - name: test connectivity
-  hosts: localhost
+  hosts: machine_dev
   tasks:
   - name: test ping
     ping:
