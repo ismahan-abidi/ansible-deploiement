@@ -1,6 +1,6 @@
 ---
 - name: test connectivity
-  hosts: group_dev
+  hosts: web-servers
   tasks:
   - name: test ping
     debug:
