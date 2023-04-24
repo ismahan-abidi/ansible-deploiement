@@ -1,0 +1,7 @@
+---
+- name: my first playbook to test awx
+  hosts: localhost
+  tasks:
+  - name: debug test
+    debug:
+      msg: "hello awx"
