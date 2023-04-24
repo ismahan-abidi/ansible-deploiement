@@ -1,6 +1,6 @@
 ---
 - name: my first playbook to test awx
-  hosts: localhost
+  hosts: web-servers-prod
   tasks:
   - name: debug test
     debug:
