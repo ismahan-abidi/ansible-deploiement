@@ -1,0 +1,7 @@
+---
+- name: test variables with awx
+  hosts: localhost
+  tasks:
+  - name: tester les variable
+    debug:
+      msg: "Bonjour {{nom}} {{prenom}}"
