@@ -4,4 +4,4 @@
   tasks:
   - name: debug
     debug: 
-      msg: "bonjour {{nom}} , {{prenom}} 
+      msg: "bonjour {{nom}} , {{prenom}} "
